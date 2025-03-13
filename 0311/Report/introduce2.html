@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        const newDiv = document.createElement("div");
+        newDiv.className = "container";
+        document.body.appendChild(newDiv);
+
+        
+        const newH1 = document.createElement("h1");
+        newH1.textContent = "박도현";
+        newDiv.appendChild(newH1);
+
+        const newP1 = document.createElement("p");
+        newP1.textContent = "경성대 소프트웨어학과 2021663028";
+        newDiv.appendChild(newP1);
+
+        const hr1 = document.createElement("hr");
+        newDiv.appendChild(hr1);
+
+        const newImg = document.createElement("img");
+        newImg.src="profile.jpg";
+        newImg.alt="image";
+        newDiv.appendChild(newImg);
+
+        const hr2 = document.createElement("hr");
+        newDiv.appendChild(hr2);
+
+        const newH2 = document.createElement("h2");
+        newH2.textContent = "목표";
+        newDiv.appendChild(newH2);
+
+        const newP2 = document.createElement("p");
+        newP2.textContent = "네이버에서 일하는 것을 목표로 노력하고 있습니다!";
+        newDiv.appendChild(newP2);
+
+        const hr3 = document.createElement("hr");
+        newDiv.appendChild(hr3);
+
+
+    </script>
+</body>
+
+</html>
